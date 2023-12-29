@@ -1,0 +1,42 @@
+body{
+    background-color: #0f0f0f;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    background-color: orange;
+    padding-left: 10px;
+    justify-content: left;
+    margin-bottom: 10px;
+}
+nav a{
+    padding: 10px;
+    color:black;
+}
+nav a:hover{
+    background-color: orangered;
+}
+
+
+img {
+    width: 200px;
+    height: 125px;
+}
+#galleryContent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 650px;
+    margin-bottom: 10px;
+}
+#galleryContent form{
+    display:contents;
+}
+
+#error{
+    color: red;
+}
